@@ -29,10 +29,8 @@ export default class ViewAllCharacters extends React.Component{
                     <Col md={12}>
                         {
                         this.state.characters.map((character, id)=>(
-                            <div>
                                     <CharacterCard character={character} key={id} />
 
-                            </div>
                         ))
                         }
                     </Col>
